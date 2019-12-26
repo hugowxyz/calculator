@@ -53,17 +53,23 @@ body {
 /* Calculator display */
 
 #display {
-    padding: 64px;
+    height: 100px;
+    overflow: auto;
+    font-size: 2em;
+    text-align: right;
     margin: 15px;
     border-bottom: 2px solid white;
 }
 
-
 /* Cosmetics */
 
-#equals { background-color: orange; }
+#equals { background-color: orange; float: right; }
 #equals:hover { background-color: #AB6F00; }
 
 #AC { color: #C78100; }
 
-
+#what {
+    border: 1px solid #1A1A1A;
+    background-color: #1A1A1A;
+    color: #1A1A1A;
+}
