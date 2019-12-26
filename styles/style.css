@@ -1,0 +1,69 @@
+/* General */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    background-color: lightgrey;
+}
+
+.row {
+    display: block;
+}
+
+.button {
+    background-color: #3D3D3D;
+    border: 1px solid #3D3D3D;
+    border-radius: 40px;
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    padding: 25px 35px;
+    margin: 20px 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.operation {
+    float: right;
+}
+
+/* Title */
+
+#title {
+    text-align: center;
+    color: black;
+}
+
+/* Main container */
+
+#calculator {
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1A1A1A;
+}
+
+
+/* Calculator display */
+
+#display {
+    padding: 64px;
+    margin: 15px;
+    border-bottom: 2px solid white;
+}
+
+
+/* Cosmetics */
+
+#equals { background-color: orange; }
+#equals:hover { background-color: #AB6F00; }
+
+#AC { color: #C78100; }
+
+
